@@ -8,7 +8,7 @@ This repository is your team's home base for your DATA 1150 project. Everything 
 
 ---
 
-## Getting started (first week)
+## Getting started 
 
 ### 1. Fork and clone
 
