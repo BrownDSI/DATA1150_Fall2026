@@ -125,18 +125,11 @@ python src/main.py
 
 _Replace this with two or three sentences describing your project, your partner, and what you are building. Link to `PROJECT.md` for details._
 
-## Contacts
-
-| Role | Name | Preferred contact |
-|---|---|---|
-| Faculty/staff partner | | |
-| Fellow(s) | | |
-| DATA 1150 TA | | |
 
 ---
 
 ## Getting help
 
-- Stuck on Git or GitHub? Ask the TA, or open an issue using the **task** template in `.github/ISSUE_TEMPLATE/`.
+- Stuck on Git or GitHub? Ask the TA
 - Unsure whether something is safe to commit? **Ask first.**
 - Need to change the scope of your project? Discuss it with your partner, then record the change in `PROJECT.md` and `docs/decisions.md`.
