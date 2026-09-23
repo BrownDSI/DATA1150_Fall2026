@@ -1,0 +1,9 @@
+data/raw/*
+data/interim/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+*.env
+credentials*.json
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
