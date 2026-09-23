@@ -4,7 +4,7 @@ Data Science Fellows Fall 2026 Project Materials
 
 This repository is your team's home base for your DATA 1150 project. Everything directly tied to your project lives here: meeting notes, planning, documentation, code, work in progress, and final deliverables. You have the whole semester to work on this, and it does not have to be in this sample repo's specific format or template but we expect that all your work will be present and well organized.
 
-> **Read this first:** Never commit raw, sensitive, or identifiable data (student records, course evaluations, chat transcripts, credentials, API keys). 
+**Read this first:** Never commit raw, sensitive, or identifiable data (student records, course evaluations, chat transcripts, credentials, API keys). 
 
 ---
 
