@@ -7,7 +7,6 @@
 | Folder | Purpose | Committed to Git? |
 |---|---|---|
 | `raw/` | Original, untouched data exactly as received | **No** (gitignored) |
-| `interim/` | Cleaned or partially processed data | **No** (gitignored) |
 | `processed/` | Final, analysis-ready data | As approved |
 | `sample/` | Synthetic or de-identified examples for testing code | Yes |
 
