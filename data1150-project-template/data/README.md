@@ -8,20 +8,12 @@
 |---|---|---|
 | `raw/` | Original, untouched data exactly as received | **No** (gitignored) |
 | `interim/` | Cleaned or partially processed data | **No** (gitignored) |
-| `processed/` | Final, analysis-ready data | Only if de-identified and approved by your partner |
+| `processed/` | Final, analysis-ready data | As approved |
 | `sample/` | Synthetic or de-identified examples for testing code | Yes |
 
 ## Where the real data lives
 _Document where the real data is stored securely (e.g., approved shared drive) and who has access._
 
-- **Location:** 
-- **Who has access:** 
-- **Retention / deletion plan:** 
-
-## Data dictionary
-| File | Field | Description | Sensitive? |
-|---|---|---|---|
-| | | | |
 
 ## Approved tools for this data
 _List tools your partner has approved (and any that are off limits)._
