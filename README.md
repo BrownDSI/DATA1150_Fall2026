@@ -10,18 +10,7 @@ This repository is your team's home base for your DATA 1150 project. Everything 
 
 ## Getting started 
 
-### 1. Fork and clone
-
-1. Click **Fork** at the top right of this repo on GitHub.
-2. Clone your fork to your computer:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   ```
-3. Add the course repo as `upstream` so you can pull in fixes from the course team:
-   ```bash
-   git remote add upstream https://github.com/<course-org>/<template-repo-name>.git
-   ```
+Clone this repo to your computer
 
 ### 2. Fill in your project charter
 
