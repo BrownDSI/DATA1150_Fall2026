@@ -1,24 +1,51 @@
-# DATA1150_Fall2026
-Data Science Fellows Fall 2026 Project Materials
 # DATA 1150 Project Repository
 
-This repository is your team's home base for your DATA 1150 project. Everything directly tied to your project lives here: meeting notes, planning, documentation, code, work in progress, and final deliverables. You have the whole semester to work on this, and it does not have to be in this sample repo's specific format or template but we expect that all your work will be present and well organized.
-
-**Read this first:** Never commit raw, sensitive, or identifiable data (student records, course evaluations, chat transcripts, credentials, API keys). 
+This repository is your team's home base for your DATA 1150 project. Everything directly tied to your project lives here: meeting notes, planning, documentation, code, work in progress, and final deliverables.
 
 ---
 
-## Getting started 
+## Getting started (first week)
 
-Clone this repo to your computer
+### 1. Create your own repo from the template
 
-### 2. Fill in your project charter
+1. Open the template (YOU ARE HERE)
+2. Click the green **Use this template** button, then **Create a new repository**.
+3. Set **Owner** to your own GitHub account and give the repo a clear name (e.g., `data1150-yourname-projectname`).
+4. **Set visibility to Private.** This is required. Your project may involve sensitive material and partner information, so never make this repo public without Linda's approval.
+5. Click **Create repository**, then clone it:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   cd <your-repo-name>
+   ```
+
+> This is a copy of the template, not a fork, so there is nothing to sync with the original. Later changes to the template will not appear in your repo automatically. We will announce anything important as far as template updates.
+
+### 2. Add Linda and TAs as collaborators, and remember to add your partner at a later date if necessary
+
+A private repo is invisible to everyone else, including us, so you must give us access. If you are on a team, figure out who is hosting the main repo and ensure everyone has access and can work together.
+
+1. In your repo, go to **Settings → Collaborators → Add people**.
+2. Add **`Linda-Clark`** and **`Jojo52504, kimmonebartley2, and liamphealy`**.
+3. Confirm the repo shows the **Private** label at the top of the page.
+
+We will accept the invitations. Do this **this week, not at the end of the term.**
+
+### 3. Submit your repo link 
+
+**Reply to the EdStem post within a week of the Workshop with the link of your repo**. We will confirm we can open it. If we get a "404" page, either the collaborator invite has not been accepted or the username was mistyped, so double-check both.
+
+
+### 4. Fill in your project charter
 
 Open [`PROJECT.md`](PROJECT.md) and fill it in with your partner during or right after your kickoff meeting: goals, deliverables, timeline, communication preferences, required tools, and constraints. Treat this as the shared source of truth and update it when scope changes.
 
-### 3. Log your kickoff meeting
+### 5. Log your kickoff meeting
 
 Copy `meetings/_TEMPLATE.md` to `meetings/YYYY-MM-DD-kickoff.md` and fill it in.
+
+### 6. Add a personal email to your GitHub account
+
+Go to **GitHub → Settings → Emails** and add an email you will keep after you leave Brown, so you never lose access to your account or your repo.
 
 ---
 
@@ -31,8 +58,7 @@ Copy `meetings/_TEMPLATE.md` to `meetings/YYYY-MM-DD-kickoff.md` and fill it in.
 | `planning/` | `roadmap.md` (milestones) and `weekly-log.md` (done / blocked / next) |
 | `docs/` | Decision log, user guides, handoff notes, and reference materials |
 | `docs/user-guide/` | Instructions written for your partner or non-technical users |
-| `docs/handoff.md` | What your partner needs to keep this project running after the term |
-| `data/` | Data folders (see the privacy rules below) |
+| `data/` | Data folders  |
 | `src/` | Scripts, pipeline code, and utilities |
 | `notebooks/` | Exploratory analysis (Jupyter, Quarto, etc.) |
 | `work-in-progress/` | Drafts that are not ready to share as deliverables |
@@ -76,13 +102,21 @@ Several projects involve sensitive information, such as student reflections, cha
 
 ## Conventions
 
-- **File names:** lowercase with hyphens, and dates in `YYYY-MM-DD` format (e.g., `2026-10-14-weekly-checkin.md`).
-- **Meeting notes:** always include attendees, decisions made, and action items with owners and due dates.
 - **Decisions:** record important choices and the reasoning in `docs/decisions.md`. Future you and your partner will thank you.
 - **Documentation:** write for someone who was not in the room. Assume your partner may hand this project to a non-technical colleague.
 - **Deliverables:** move work from `work-in-progress/` to `deliverables/` only when your partner has seen it or it is ready for review, and update `deliverables/README.md` with its status.
 
 ---
+
+## Submitting your final work
+
+1. **Make sure everything is committed and pushed** to your repo's main branch.
+2. **Tag the final version** so there is a fixed snapshot to review, even if you keep editing later:
+   ```bash
+   git tag v1.0-final
+   git push origin v1.0-final
+   ```
+3. **Send your instructor the link** to your repo and to the tag (`https://github.com/<your-username>/<your-repo-name>/releases/tag/v1.0-final`) by **`<final due date>`**. Send it the way you sent your week 1 link.
 
 ## End of term checklist
 
@@ -92,6 +126,8 @@ Several projects involve sensitive information, such as student reflections, cha
 - [ ] `docs/handoff.md` says where final versions live (repo, shared drive, Kodiak, partner's system, etc.) and who owns them
 - [ ] No sensitive data or credentials are in the repo or its history
 - [ ] Code runs from a clean clone, with setup instructions in `src/README.md` or below
+- [ ] Repo is still **Private** and your instructor and TA can open it
+- [ ] Final version has been submitted
 - [ ] Partner has confirmed they can access everything they need
 
 ---
@@ -114,11 +150,18 @@ python src/main.py
 
 _Replace this with two or three sentences describing your project, your partner, and what you are building. Link to `PROJECT.md` for details._
 
+## Contacts
+
+| Role | Name | Preferred contact |
+|---|---|---|
+| Faculty/staff partner | | |
+| Fellow(s) | | |
+| DATA 1150 TA | | |
 
 ---
 
 ## Getting help
 
-- Stuck on Git or GitHub? Ask the TA
+- Stuck on Git or GitHub? Ask us, or open an issue using the **task** template in `.github/ISSUE_TEMPLATE/`.
 - Unsure whether something is safe to commit? **Ask first.**
 - Need to change the scope of your project? Discuss it with your partner, then record the change in `PROJECT.md` and `docs/decisions.md`.
