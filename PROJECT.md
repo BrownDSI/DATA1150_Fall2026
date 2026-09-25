@@ -6,7 +6,6 @@ _Fill this in during or right after your kickoff meeting. Update it whenever sco
 - **Faculty/staff partner:** 
 - **Partner's department / unit:** 
 - **Fellow(s):** 
-- **DATA 1150 TA:** 
 - **Course / context:** 
 - **One-sentence goal:** 
 
@@ -30,9 +29,7 @@ _Status options: Not started / In progress / In review / Done_
 ## Communication
 - **Meeting cadence and format:** (e.g., weekly, 30 min, Zoom)
 - **Async channel:** (email / Slack / other)
-- **Response-time expectations:** 
-- **Partner preferences or quirks:** 
-
+-
 ## Required tools and skills
 - **Must have:** 
 - **Nice to have:** 
