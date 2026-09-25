@@ -150,15 +150,6 @@ python src/main.py
 
 _Replace this with two or three sentences describing your project, your partner, and what you are building. Link to `PROJECT.md` for details._
 
-## Contacts
-
-| Role | Name | Preferred contact |
-|---|---|---|
-| Faculty/staff partner | | |
-| Fellow(s) | | |
-| DATA 1150 TA | | |
-
----
 
 ## Getting help
 
